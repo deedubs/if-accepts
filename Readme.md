@@ -1,4 +1,4 @@
-# if-accepts
+# if-accepts [![Build Status](https://secure.travis-ci.org/deedubs/if-accepts.png)](http://travis-ci.org/deedubs/if-accepts)
 
 ## Example
 
