@@ -21,7 +21,6 @@ describe('if-accepts', function () {
     var router = express();
 
     router.get('/test', ifAccepts('json', function (req, res, next) {
-      console.log('not here');
       res.json({test: true});
     }));
 
