@@ -1,10 +1,5 @@
-module.exports = function(contentType, middleware) {
-  var accepts = [contentType, 'html'];
+var path = !process.env.IF_ACCEPTS_COV
+    ? './lib/'
+    : './lib-cov/';
 
-  return function(req, res, next) {
-    if (req.accepts(accepts) == contentType)
-      middleware.apply(this, arguments);
-    else
-      next();
-  }
-}
+module.exports = require(path);

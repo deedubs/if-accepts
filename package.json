@@ -1,15 +1,20 @@
 {
-  "name": "if-accepts",
-  "version": "0.0.1",
-  "description": "## Example",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/deedubs/if-accepts.git"
-  },
-  "author": "Dan Williams",
-  "license": "BSD"
+    "name":"if-accepts",
+    "version":"0.0.1",
+    "description":"## Example",
+    "main":"index.js",
+    "scripts":{
+        "test":"make test"
+    },
+    "repository":{
+        "type":"git",
+        "url":"git://github.com/deedubs/if-accepts.git"
+    },
+    "author":"Dan Williams",
+    "license":"MIT",
+    "devDependencies":{
+        "supertest":"*",
+        "mocha":"*",
+        "express":"*"
+    }
 }
